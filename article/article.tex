@@ -13,10 +13,12 @@ sorting=ynt
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{url}
+\usepackage[hyphens]{url}
 %
 \usepackage[breaklinks]{hyperref}
+
 \usepackage{breakurl}
+\urlstyle{same}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{graphicx}
@@ -36,11 +38,24 @@ sorting=ynt
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{paralist}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\FALTAREFERENCIA}{\textcolor{red}{[FALTA REFERENCIA]}}
+\newcommand{\FALTATEXTO}{\textcolor{red}{[FALTA TEXTO]}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %opening
 %\title{Neologismo de sentido na didática na dança de salão no Brasil}
-\title{Gírias na didática na dança de salão no Brasil}
+\title{Neologismos na didática da dança de salão no Brasil}
 \author{Fernando Pujaico Rivera, -------- -------- --------}
-
+\date{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,82 +65,22 @@ sorting=ynt
 \maketitle
 
 \begin{abstract}
-Condução
+\FALTATEXTO
 \end{abstract}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Fundamento teórico}
-
-Dado que no Brasil, no existe um dicionario oficial, 
-que regule ou marque o rumbo do significado das palavras;
-acho necessário, antes de continuar com as explicações, 
-e para evitar incorrer, não intencionadamente, em mal entendidos;
-emoldurar, o uso de alguns termos, nas acepções das palavras propostas por alguns autores.
-\begin{mydefinition}[Gíria:] 
-%\index{Gíria}
-\label{def:Giria}
-Podem ser achadas as seguintes acepções no Dicionário Priberam da Língua Portuguesa \cite{priberamgiria}:
-\begin{itemize}
-\item Linguagem característica de um grupo profissional ou sociocultural, é equivalente ao termo JARGÃO.
-\item Linguagem usada por determinado grupo, 
-geralmente incompreensível para quem não pertence ao grupo e que serve também como meio de realçar a sua especificidade.
-\end{itemize}
-\end{mydefinition}
-
-\begin{mydefinition}[Neologismo:] 
-%\index{Neologismo}
-\label{def:Neologismo}
-Podem ser achadas as seguintes acepções no Dicionário Priberam da Língua Portuguesa \cite{priberamneologismo}:
-\begin{itemize}
-\item Palavra nova, ou acepção nova de uma palavra já existente na língua.
-\item Emprego de palavras novas ou de novas acepções.
-\end{itemize}
-\end{mydefinition}
-
-\begin{mydefinition}[Neologismo semântico:] 
-%\index{Neologismo!Neologismo semântico}
-\label{def:NeologismoSemantico}
-Um neologismo semântico ou neologismo de significado é caraterizado pela modificação do significado de uma palavra já existente na língua;
-as gírias em muitas ocasiões constituem exemplos de neologismos semânticos, 
-pois algumas gírias dão novos sentidos a palavras já usadas no vocabulário formal \cite[pp. 82-83]{correalingua}.
-\end{mydefinition}
-
-
-\begin{mydefinition}[Homonímia:] 
-%\index{Homonímia}
-\label{def:Homonimia}
-~
-
-\begin{itemize}
-\item Relação entre palavras que têm sentidos e origens diferentes
- mas que se escrevem e pronunciam da mesma maneira \cite{priberamhomonimia}.
-
-\end{itemize}
-\end{mydefinition}
-
-%\begin{comment}
-%\end{comment}
-\section{Homonímia vs. neologismo semântico}
-Aqui analisaremos os casos onde temos um novo termo na linguagem popular,
-porem a palavra usada para designar o englobar a ideia desse novo termo,
-já existe na linguagem formal, nesse ponto cabe nos perguntar, 
-estamos frente a uma homonimia ou a um neologismo semântico?
-
-A língua dispõe de mecanismos controladores da proliferação de homonimia,
-como uma forma de preservara a eficacia e a clareza da comunicação \cite[pp. 13]{pilla2002neologismos}.
-
-A homonimia é quando esse novo termo engloba um conceito conhecido \cite[pp. 13]{pilla2002neologismos}.
-
-e o neologismo semântico acontece quando esse novo termo engloba um  conceito novo \cite[pp. 13]{pilla2002neologismos}.
+\input{section-fundamento-teorico}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{section-homonimia-neologismo}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Não recomendadas na dança de salão}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Neologismos na dança de salão}
 
 \input{giria-contratempo} %[OK]
 
@@ -136,7 +91,7 @@ e o neologismo semântico acontece quando esse novo termo engloba um  conceito n
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusões}
-Nas nossas pesquisas sobre 
+Nas nossas pesquisas sobre \FALTATEXTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
